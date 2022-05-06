@@ -1,0 +1,24 @@
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        JFrame jFrame = new JFrame();
+            int number1 = Integer.parseInt(JOptionPane.showInputDialog("Qual numero vc queira somar?"));
+                int number2 = Integer.parseInt(JOptionPane.showInputDialog("Mais quanto?"));
+        var soma = number1 + number2;
+                            JOptionPane.showMessageDialog(jFrame, "Deu " + soma);
+                                    int number3 = Integer.parseInt(JOptionPane.showInputDialog("Qual numero vc queira subtrair?"));
+    int number4 = Integer.parseInt(JOptionPane.showInputDialog("Menos quanto?"));
+                            var subtraçao = number3 - number4;
+                                        JOptionPane.showMessageDialog(jFrame, "Deu " + subtraçao);
+                                            int number5 = Integer.parseInt(JOptionPane.showInputDialog("Qual numero vc queira multiplicar?"));
+                                                int number6 = Integer.parseInt(JOptionPane.showInputDialog("Vezes quanto?"));
+                                                    var multiplicaçao = number5 * number6;
+                                                        JOptionPane.showMessageDialog(jFrame, "Deu " + multiplicaçao);
+                                                            int number7 = Integer.parseInt(JOptionPane.showInputDialog("Qual numero vc queira dividir?"));
+                                                                int number8 = Integer.parseInt(JOptionPane.showInputDialog("Dividido por quanto?"));
+                                                                        var divisao = number7 / number8;
+                                                                            JOptionPane.showMessageDialog(jFrame, "Deu " + divisao);
+    }
+}
+
